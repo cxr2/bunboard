@@ -3,7 +3,7 @@ import { UnauthenticatedApp } from "./components/UnauthenticatedApp";
 import { useAuth } from "./hooks/useAuth";
 import bunlogo from "./images/bun.png";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const { user } = useAuth();
