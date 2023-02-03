@@ -1,13 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=IM+Fell+DW+Pica:ital@0;1&family=Noto+Serif+Ahom&family=Open+Sans&display=swap");
+:root {
+  --darkred: #8b0000;
+  --palewhite: #fff3c9;
+  --yellow: #facf7f;
+  --gray: #60695c;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: var(--gray) !important;
+  font-family: "Noto Serif Ahom", serif;
+  /* font-family: "IM Fell DW Pica", serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 1.3px;
+  color: var(--palewhite) !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.bunlogo {
+  width: 60px;
 }

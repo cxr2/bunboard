@@ -1,0 +1,13 @@
+.login {
+  background: white;
+  color: #08111b;
+  font-weight: 700;
+  padding: 16px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.login:hover {
+  background-color: var(--yellow);
+}
