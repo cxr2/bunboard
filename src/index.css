@@ -4,11 +4,12 @@
   --palewhite: #fff3c9;
   --yellow: #facf7f;
   --gray: #60695c;
+  --dark: #08111b;
 }
 
 body {
   margin: 0;
-  background-color: var(--gray) !important;
+  background-color: var(--dark);
   font-family: "Noto Serif Ahom", serif;
   /* font-family: "IM Fell DW Pica", serif; */
   -webkit-font-smoothing: antialiased;
@@ -22,6 +23,22 @@ code {
     monospace;
 }
 
-.bunlogo {
+img.bunlogo {
   width: 60px;
+  padding: 10px 10px 0 10px;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.background {
+  background-color: var(--dark);
+}
+
+#bunboardtitle {
+  display: none;
+}
+img.door {
+  padding-top: 3em;
 }

@@ -1,5 +1,5 @@
 import { useAuth } from "../../hooks/useAuth";
-import mysterydoor from "../../images/mysterydoor.jpg";
+import mysterydoor from "../../images/mysterydoor.png";
 import "./styles.css";
 
 function UnauthenticatedApp() {
@@ -10,6 +10,7 @@ function UnauthenticatedApp() {
       <div>
         <img
           src={mysterydoor}
+          className="door"
           useMap="#image-map"
           alt="a mysterious door in the woods"
         />
@@ -17,7 +18,7 @@ function UnauthenticatedApp() {
         <map name="image-map">
           <area
             onClick={login}
-            alt="a mysterious door"
+            alt="a mysterious door..."
             title="a mysterious door"
             coords="234,460,231,219,292,187,353,220,350,454,329,464,261,464"
             shape="poly"

@@ -14,11 +14,10 @@ function ChatRoom() {
 
   return (
     <>
-      <h2>{room.title}</h2>
-      <div>
+      {/* <div>
         <Link to="/">⬅️ Back to all rooms</Link>
-      </div>
-      <div className="messages-container">
+      </div> */}
+      <div className="messages-container container-fluid">
         <MessageList roomId={room.id} />
         <MessageInput roomId={room.id} />
       </div>

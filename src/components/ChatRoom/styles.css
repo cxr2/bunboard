@@ -3,6 +3,7 @@ a {
 }
 
 .messages-container {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
   width: 100%;
   padding: 16px;
   flex-grow: 1;

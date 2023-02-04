@@ -5,7 +5,10 @@ import "./styles.css";
 function Landing() {
   return (
     <>
-      <h2>Come in!</h2>
+      <h3>
+        Surprise! I've gathered all your friends and family here to leave
+        messages of love and appreciation for you.
+      </h3>
       <ul className="chat-room-list">
         {chatRooms.map((room) => (
           <li key={room.id} className="px-3">

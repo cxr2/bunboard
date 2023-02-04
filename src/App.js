@@ -8,12 +8,12 @@ function App() {
   const { user } = useAuth();
 
   return (
-    <div className="container">
-      <h1>
+    <div className="container background">
+      <div id="bunboardtitle">
         <img src={bunlogo} className="bunlogo" alt="pixelated bun" />
-        Bun Board
+        <h1> Bun Board </h1>
         <img src={bunlogo} className="bunlogo" alt="pixelated bun" />
-      </h1>
+      </div>
       {user ? <AuthenticatedApp /> : <UnauthenticatedApp />}
     </div>
   );

@@ -3,13 +3,18 @@ import { Landing } from "../Landing";
 import { ChatRoom } from "../ChatRoom";
 
 function AuthenticatedApp() {
+  const title = document.getElementById("bunboardtitle");
+
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/room/:id" element={<ChatRoom />} />
-      </Routes>
-    </BrowserRouter>
+    (title.style.display = "block"),
+    (
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/room/:id" element={<ChatRoom />} />
+        </Routes>
+      </BrowserRouter>
+    )
   );
 }
 
