@@ -59,3 +59,10 @@ button {
   align-items: center;
   gap: 32px;
 }
+
+@media only screen and (max-width: 450px) {
+  .container {
+    max-width: 95%;
+    height: 90%;
+  }
+}
